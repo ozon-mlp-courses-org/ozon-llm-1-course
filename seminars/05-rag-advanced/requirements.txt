@@ -1,0 +1,29 @@
+# Единое окружение для vector_search.ipynb,
+# precompute_embeddings_scifact.ipynb и embedding_benchmark_scifact.ipynb.
+# Используем Python 3.11 или новее.
+
+# Общая численная база и векторные индексы.
+numpy==2.4.6
+faiss-cpu==1.15.1
+annoy==1.17.3
+hnswlib==0.8.0
+
+# Загрузка SciFact и расчёт эмбеддингов.
+datasets==3.6.0
+sentence-transformers==5.1.2
+transformers==4.57.6
+torch==2.8.0
+huggingface-hub==0.36.2
+
+# Официальный MTEB benchmark и его вывод.
+mteb==2.27.1
+pandas==3.1.1
+matplotlib==3.10.8
+
+# Jupyter и сохранение/проверка выполненных ноутбуков.
+jupyterlab==4.3.5
+ipykernel==7.4.0
+ipython==9.10.0
+nbformat==5.10.4
+nbclient==0.10.2
+nest-asyncio2==1.7.4
